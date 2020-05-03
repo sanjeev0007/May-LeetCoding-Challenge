@@ -27,6 +27,8 @@ Then 4 is the first bad version.
 // The API isBadVersion is defined for you.
 // bool isBadVersion(int version);
 
+//Only need to complete functions
+
 
 class Solution {
 public:
