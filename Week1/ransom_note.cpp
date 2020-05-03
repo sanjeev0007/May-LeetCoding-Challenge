@@ -21,7 +21,7 @@ canConstruct("aa", "aab") -> true
 class Solution {
 public:
     bool canConstruct(string ransomNote, string magazine) {
-        int ct[26]={0};
+        int ct[26]={0}; //we can also use map
         for(char i:magazine)
             ct[i-'a']++;
         for(char i:ransomNote)
