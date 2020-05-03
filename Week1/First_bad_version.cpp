@@ -48,7 +48,7 @@ public:
 };
 /*
 Explanation:-
-First thing which comes in my mind is using simple linear search but it gives Time Limit Exceed which means you have to optimize your solution
+First thing which comes in our mind is using simple linear search but it gives Time Limit Exceed which means you have to optimize your solution
 so we know that time complexity of binary search is better than linear search 
 So i applied it. 
 
