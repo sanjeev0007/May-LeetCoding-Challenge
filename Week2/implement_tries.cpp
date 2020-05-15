@@ -16,8 +16,8 @@ trie.insert("app");
 trie.search("app");     // returns true
 Note:
 
-You may assume that all inputs are consist of lowercase letters a-z.
-All inputs are guaranteed to be non-empty strings.
+1)You may assume that all inputs are consist of lowercase letters a-z.
+2)All inputs are guaranteed to be non-empty strings.
 
 */
 
