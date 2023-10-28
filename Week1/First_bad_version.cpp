@@ -34,18 +34,18 @@ class Solution {
 public:
     int firstBadVersion(int n) {
         //Here we gonna apply binary search
-        int l=1;
-        int r=n;
-        while(l<r){
-            int m=(r-l)/2+l;
-        if(isBadVersion(m))
-            r=m;
+        int left=1;
+        int right=n;
+        while(left<right){
+            int mid=(right-left)/2+l;
+        if(isBadVersion(mid))
+            right=mid;
         else
-            l=m+1;
+            left=mid+1;
             
         }
         
-        return l;
+        return left;
     }
 };
 /*
